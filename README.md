@@ -1,5 +1,4 @@
-theres no interactive things that yall can interact cuz it just a showcase web
-i made this cuz i think a crossover game look cool 
+theres no interactive things that yall can interact cuz it just a showcase web that i made just for my school work
 
 anyways about the trailer and the login screen
 you have too put your own trailer and name it by "trailer.mp4" 
