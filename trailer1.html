@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trailer bjir</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #myVideo {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      display: block;
+    }
+
+    #startButton {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      padding: 12px 24px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+
+  <video id="myVideo">
+    <source src="trailer.mp4" type="video/mp4">
+  </video>
+
+
+  <button id="startButton">CONTINUE</button>
+
+  <script>
+    const video = document.getElementById('myVideo');
+    const button = document.getElementById('startButton');
+
+
+    button.addEventListener('click', () => {
+      video.play();           
+      button.style.display = 'none'; 
+    });
+    video.addEventListener('ended', () => {
+      window.location.href = 'file:///C:/Users/MSI/Downloads/dokumen%20rahasiav2/dokumen%20rahasia/HOMEA.html';
+    });
+  </script>
+
+</body>
+</html>
